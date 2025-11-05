@@ -1,0 +1,454 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: black;
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+header a {
+    color: rgb(145, 138, 138);
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+header a:hover {
+    color: white;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* --- MAIN CONTENT --- */
+
+.main-content {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#product-image {
+    width: 50%;
+    height: auto;
+    margin-top: -5rem;
+}
+
+.slogan p {
+    color: white;
+    font-size: 6.0rem;
+    font-weight: 550;
+    width: 45%;
+    text-align: left;
+    padding-top: 2em;
+    margin-left: 1.5em;
+    line-height: 1.15;
+}
+
+.service {
+    background-color: black;
+    width: 29%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -22rem 78rem 0 auto;
+}
+
+.service a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.service a:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* --- CONTENT --- */
+
+.content {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 5rem 0 5rem 0;
+}
+
+.our-store {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ad-image {
+    width: 50%;
+    height: auto;
+    mask-image: linear-gradient(to right, black 70%, transparent);
+}
+
+#ad-heading {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+#ad-text {
+    width: 35%;
+    height: auto;
+    margin-right: 10em;
+    padding-top: 2em;
+    color: white;
+}
+
+/* --- COLLECTION --- */
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: -15rem auto -40rem auto;
+}
+
+#collection-image1 {
+    grid-area: 2 / 2 / 4 / 3;
+    border: 1px solid rgba(163, 152, 152, 0.368);
+    padding: 4rem 0.5rem;
+}
+
+#collection-image1 img {
+    width: 100%;
+}
+
+#collection-image2 {
+    grid-area: 2 / 3 / 4 / 4;
+    border: 1px solid rgba(163, 152, 152, 0.368);
+    padding: 4rem 0.5rem;
+}
+
+#collection-image2 img {
+    width: 100%;
+}
+
+#collection-image3 {
+    grid-area: 2 / 4 / 4 / 5;
+    border: 1px solid rgba(163, 152, 152, 0.368);
+    padding: 4rem 0.5rem;
+}   
+
+#collection-image3 img {
+    width: 100%;
+}
+
+.watchname {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.grey-block {
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    height: 20rem;
+    margin-top: 0rem;
+}
+
+/* --- FOOTER --- */
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 25rem;
+    border-top: 1px solid rgba(163, 152, 152, 0.368);
+}
+
+.menu {
+    margin-left: 30rem;
+}
+
+.menu li {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 1.5rem;    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.menu-heading {
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+}
+
+#form {
+    margin-right: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form p {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+input[type="email"] {
+    width: 30rem;
+    height: 4rem;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="email"]::placeholder {
+    color: rgb(114, 114, 114);
+    font-size: 1.6rem;
+}
+
+input[type="submit"] {
+    width: 15rem;
+    height: 4rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: -1rem;
+    margin-left: 7rem;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .slogan p {
+        font-size: 4.5rem;
+        width: 55%;
+        margin-left: 1rem;
+    }
+
+    #product-image {
+        width: 60%;
+        margin-top: -2rem;
+    }
+
+    .service {
+        margin: -20rem 60rem 0 auto;
+        width: 40%;
+    }
+
+    #ad-heading {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    #ad-text {
+        width: 40%;
+        margin-right: 5rem;
+    }
+
+    .collection {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 0;
+        margin: -10rem auto -30rem auto;
+        width: 90%;
+    }
+
+    #collection-image1 {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    #collection-image2 {
+        grid-area: 2 / 2 / 4 / 3;
+    }
+
+    #collection-image3 {
+        grid-area: 2 / 3 / 4 / 4;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+
+    #form {
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    input[type="email"] {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    input[type="submit"] {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #nav-bar {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .slogan {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slogan p {
+        font-size: 3.5rem;
+        width: 80%;
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    #product-image {
+        width: 70%;
+        margin: -2rem auto 0 auto;
+    }
+
+    .service {
+        margin: 2rem auto 0 auto;
+        width: 60%;
+        justify-content: center;
+    }
+
+    #ad-image {
+        display: none;
+    }
+
+    #ad-text {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    #ad-heading {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .collection {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 0;
+        margin: -5rem auto -20rem auto;
+        width: 90%;
+    }
+
+    #collection-image1 {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    #collection-image2 {
+        grid-area: 4 / 1 / 6 / 2;
+    }
+
+    #collection-image3 {
+        grid-area: 2 / 2 / 4 / 3;
+    }
+
+    .footer-flex {
+        gap: 3rem;
+    }
+}

@@ -12,7 +12,7 @@ It highlights a featured product with a clean design, smooth layout, and clear c
 
 ## 🖼️ Preview
 *(Optional – you can add a screenshot here later)*  
-![Preview](<img width="948" height="415" alt="image" src="https://github.com/user-attachments/assets/b3055429-29b6-4c59-bd25-9d9bcf6866db" />
+![Preview](<preview.png>
 )
 
 ---

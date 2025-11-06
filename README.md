@@ -11,7 +11,6 @@ It highlights a featured product with a clean design, smooth layout, and clear c
 ---
 
 ## 🖼️ Preview
-*(Optional – you can add a screenshot here later)*  
 ![Preview](<preview.png>
 )
 
@@ -31,11 +30,17 @@ It highlights a featured product with a clean design, smooth layout, and clear c
 - Fixed navigation bar  
 - Hero section with main product display  
 - Product showcase and features section  
-- Footer with links and social icons  
-
+- Footer with links and social icons
+  
 ---
 
 ## ⚙️ How to Run Locally
 1. **Clone this repository**
+   ```bash
+   git clone https://github.com/tech-saad/portfolio.git
+   cd portfolio
+
+
+
    ```bash
    git clone https://github.com/tech-saad/product-landing-page.git

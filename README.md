@@ -39,8 +39,3 @@ It highlights a featured product with a clean design, smooth layout, and clear c
    ```bash
    git clone https://github.com/tech-saad/portfolio.git
    cd portfolio
-
-
-
-   ```bash
-   git clone https://github.com/tech-saad/product-landing-page.git
